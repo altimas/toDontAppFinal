@@ -10,7 +10,7 @@ const InputContainer = ({ addToDont }) => {
         <div className={s.inputContainer}>
             <TextField
                 id="outlined-basic"
-                label="Outlined"
+                label="Thing to Not Do"
                 variant="outlined"
                 onChange={(event) => setInputName(event.target.value)}
             />
