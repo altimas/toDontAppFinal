@@ -2,7 +2,7 @@
 
 ## Link to Presenter Notes
 
-[Read my Presenter Notes here to see all the Points I cover](../blob/master/PresenterNotes)
+[Read my Presenter Notes here to see all the Points I cover](../master/PresenterNotes)
 
 ## Slides are available Here
 
