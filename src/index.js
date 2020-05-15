@@ -4,11 +4,14 @@ import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ScopedCssBaseline from '@material-ui/core/ScopedCssBaseline';
+import { AppProvider } from './context/context';
 
 ReactDOM.render(
     <React.StrictMode>
         <ScopedCssBaseline>
-            <App />
+            <AppProvider>
+                <App />
+            </AppProvider>
         </ScopedCssBaseline>
     </React.StrictMode>,
     document.getElementById('root')
