@@ -1,4 +1,6 @@
-export const toDontReducer = (state, action) => {
+const toDontReducer = (state, action) => {
+    // So we just pass in the current state, and an action which is just {type: string, payload: whatever}
+    //Based on the action.type we do different things with state.
     switch (action.type) {
         case 'ADD_TO_DONT':
             const newStateFromAdd = [...state, action.payload];
@@ -14,3 +16,5 @@ export const toDontReducer = (state, action) => {
             return state;
     }
 };
+
+export default toDontReducer;

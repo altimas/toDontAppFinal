@@ -4,6 +4,7 @@ import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ScopedCssBaseline from '@material-ui/core/ScopedCssBaseline';
+// Bring in our newly created AppProvider and then Wrap our App with it.
 import { AppProvider } from './context/context';
 
 ReactDOM.render(

@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# To Don't App - Context API with useContext and useReducer Hooks
+
+## Link to Presenter Notes
+
+[Read my Presenter Notes here to see all the Points I cover](../blob/master/PresenterNotes)
+
+## Slides are available Here
+
+[Slides Avaible Here In a Google Slides](https://docs.google.com/presentation/d/1xt7PYZCNpBiBnmm_9e5LbJNGa7GoQy9vStQucFfEBwA/edit?usp=sharing)
 
 ## Available Scripts
 
@@ -14,4 +22,4 @@ You will also see any lint errors in the console.
 
 ---
 
-# To Don't App - Context API with useContext and useReducer Hooks
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
